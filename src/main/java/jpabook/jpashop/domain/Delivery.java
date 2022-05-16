@@ -22,7 +22,7 @@ public class Delivery {
     private Order order;
 
     @Embedded
-    private Address addres;
+    private Address address;
 
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status; //READY, COMP
